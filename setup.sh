@@ -5,6 +5,7 @@
 ## 用法: ./connect <connections> <number of clients> <server ip>
 ## Server IP 通常是 Docker gateway IP address, 缺省是 172.17.0.1
 ## server 端 部署在docker IP address docker 容器名
+### ./setup 20000 50 docker.Name
 
 CONNECTIONS=$1
 REPLICAS=$2
