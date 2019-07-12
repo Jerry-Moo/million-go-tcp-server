@@ -1,0 +1,9 @@
+# ide
+.vscode
+
+# build file
+server
+client
+
+# log
+*.log
