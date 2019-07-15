@@ -1,4 +1,4 @@
-// +build other
+// +build !linux
 
 package main
 
