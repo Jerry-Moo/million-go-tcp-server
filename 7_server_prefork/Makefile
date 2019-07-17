@@ -3,4 +3,4 @@ build:
 	docker build -t million-epoll_server_prefork .
 
 run:
-	docker run --name million_simple_tcp_server  -d million-epoll_server_prefork -c 10 -prefork
+	docker run --name million_simple_tcp_server   million-epoll_server_prefork -c 10 -prefork
